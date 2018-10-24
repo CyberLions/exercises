@@ -8,7 +8,7 @@ sudo apt-get -y install curl nmap
 sudo /usr/sbin/useradd -m -s /bin/bash ccso001
 
 # set passwords
-sudo echo ccso:Y2NzbyBjaGFsbGVuZ2UgMDAx | sudo chpasswd
+sudo echo ccso001:Y2NzbyBjaGFsbGVuZ2UgMDAx | sudo chpasswd
 
 # disable old motd
 # and activate new one
