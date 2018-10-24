@@ -22,15 +22,15 @@ sudo curl https://raw.githubusercontent.com/CyberLions/ccso-exercises/exercises/
 sudo curl https://raw.githubusercontent.com/CyberLions/ccso-exercises/exercises/001/files/readme001.txt > ~/readme001.txt
 
 # only ccso001 user can access
-sudo chown ccso ~/access.log
-sudo chgrp ccso ~/access.log
+sudo chown ccso001 ~/access.log
+sudo chgrp ccso001 ~/access.log
 sudo chmod 0660 ~/access.log
-sudo chown ccso ~/readme001.txt
-sudo chgrp ccso ~/readme001.txt
+sudo chown ccso001 ~/readme001.txt
+sudo chgrp ccso001 ~/readme001.txt
 sudo chmod 0660 ~/readme001.txt
 
 echo "==========================================================="
 echo "Setup completed!"
-echo "To start, type: su ccso, with password: Y2NzbyBjaGFsbGVuZ2UgMDAx"
-echo "and check out the readme0.txt file"
+echo "To start, type: su ccso001, with password: Y2NzbyBjaGFsbGVuZ2UgMDAx"
+echo "and check out the readme001.txt file"
 echo "==========================================================="
