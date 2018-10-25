@@ -12,7 +12,7 @@ sudo echo ccso002:d2VsY29tZSB0byBsZXZlbCAy | sudo chpasswd
 
 # get log file and readme with challenge instructions
 sudo curl -o /home/ccso002/readme002.txt https://raw.githubusercontent.com/CyberLions/ccso-exercises/exercises/002/files/readme002.txt
-sudo curl -o /home/ccso002/readme002.txt https://raw.githubusercontent.com/CyberLions/ccso-exercises/exercises/002/files/DSC_0043.JPG
+sudo curl -o /home/ccso002/DSC_0043.JPG https://raw.githubusercontent.com/CyberLions/ccso-exercises/exercises/002/files/DSC_0043.JPG
 
 # only ccso002 user can access
 sudo chown ccso002 /home/ccso002/*
