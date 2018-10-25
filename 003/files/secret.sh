@@ -1,0 +1,1 @@
+$(while true ; do echo "You found the spooky flag! Congrats!" | nc -l -w 1 -p 10031 ; done) &>/dev/null &
