@@ -13,8 +13,8 @@ sudo run-parts /etc/update-motd.d/
 
 sudo mkdir /tmp/ccsotmp
 sudo curl https://raw.githubusercontent.com/CyberLions/ccso-exercises/exercises/001/setup001 > /tmp/ccsotmp/setup001
-sudo curl https://raw.githubusercontent.com/CyberLions/ccso-exercises/exercises/001/setup002 > /tmp/ccsotmp/setup002
-sudo curl https://raw.githubusercontent.com/CyberLions/ccso-exercises/exercises/001/setup003 > /tmp/ccsotmp/setup003
+sudo curl https://raw.githubusercontent.com/CyberLions/ccso-exercises/exercises/002/setup002 > /tmp/ccsotmp/setup002
+sudo curl https://raw.githubusercontent.com/CyberLions/ccso-exercises/exercises/003/setup003 > /tmp/ccsotmp/setup003
 
 sudo bash /tmp/ccsotmp/setup001
 sudo bash /tmp/ccsotmp/setup002
