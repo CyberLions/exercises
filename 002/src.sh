@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# update and install dependencies
-sudo apt-get -qq update #; sudo apt-get -y upgrade
-sudo apt-get -qq -y install curl nmap
-
 # create users with home directory and bash as shell
 sudo /usr/sbin/useradd -m -s /bin/bash ccso002
 
