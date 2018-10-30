@@ -11,8 +11,8 @@ sudo curl -o /home/ccso004/readme004.txt https://raw.githubusercontent.com/Cyber
 sudo curl -o /home/ccso004/make.py https://raw.githubusercontent.com/CyberLions/ccso-exercises/exercises/004/files/make-dist.py
 sudo curl -o /home/ccso004/requirements.txt https://raw.githubusercontent.com/CyberLions/ccso-exercises/exercises/004/files/requirements.txt
 
-sudo chown ccso003 /home/ccso004/*
-sudo chgrp ccso003 /home/ccso004/*
+sudo chown ccso004 /home/ccso004/*
+sudo chgrp ccso004 /home/ccso004/*
 sudo chmod 0660 /home/ccso004/*
 
 echo "==========================================================="
