@@ -16,7 +16,7 @@ for i in tqdm(list1):
                 os.makedirs(path)
                 #print("Made " + path + " .")
                 with open(path+'flag.txt',"w") as f:
-                    f.write("false alarm!")
+                    f.write("false alarm!\n")
 print("DONE.")
 
 print("Hiding flag...")
@@ -28,7 +28,7 @@ for i in range(0,3):
 combopath = 'folder/' + combopath
 
 with open(combopath+"flag.txt",'w') as f:
-    f.write("you found me!")
+    f.write("you found me!\n")
 
 print("DONE. Flag hidden!")
 #print("DEBUG: flag is hidden in " + combopath)
