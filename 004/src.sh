@@ -8,7 +8,7 @@ sudo echo ccso004:RGFpc3lEYWlzeUdpdmVNZVlvdXJBbnN3ZXJEb29v | sudo chpasswd
 
 # get log file and readme with challenge instructions
 sudo curl -o /home/ccso004/readme004.txt https://raw.githubusercontent.com/CyberLions/ccso-exercises/exercises/004/files/readme004.txt
-sudo curl -o /home/ccso004/make.py https://raw.githubusercontent.com/CyberLions/ccso-exercises/exercises/004/files/minified/make.py
+sudo curl -o /home/ccso004/make.py https://raw.githubusercontent.com/CyberLions/ccso-exercises/exercises/004/files/make.py # normally minified/make.py, but experencing troubles
 sudo curl -o /home/ccso004/requirements.txt https://raw.githubusercontent.com/CyberLions/ccso-exercises/exercises/004/files/requirements.txt
 
 sudo chown ccso004 /home/ccso004/*
