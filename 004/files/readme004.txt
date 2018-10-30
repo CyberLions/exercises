@@ -16,4 +16,9 @@ but is only tested on 3 and
 Helpful commands:
 apt, sudo, pip, python
 
+Another hint:
+ccso004 is not in the
+ sudoers file. The account you
+ originally made probably is!
+
 ==============================
